@@ -4,6 +4,15 @@
   padding: 100px 0;
 }
 
+.footer .container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -11,4 +20,25 @@
 
 .footer-text {
   max-width: 264px;
+}
+
+.footer-socials-title {
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer .socials-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer .socials {
+  gap: 16px;
+  justify-content: center;
+}
+
+.footer .socials-icon {
+  width: 24px;
+  height: 24px;
 }
